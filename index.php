@@ -1,18 +1,6 @@
 <html>
-        <!-- A empresa MINE HORTA VALE VERDE te contratou para informatizar um formulário que 
-        atualmente é mantido em papel. Sua tarefa é desenvolver um formulário em PHP com os
-        mesmos dados do formulário em papel e armazenar as informações em um arquivo CSV. O 
-ok     Modelo do formulário encontra-se disponível como um recurso adicionado a esta tarefa.
-        Antes de salvar o formulário, você deve fazer algumas validações: 
-        ok    O campo Firma é obrigatório,
-             pelo menos 1 contato (telefone, celular ou email) deve ser preenchido e 
-             o CNPJ deve ser um CNPJ válido (utilize a função disponível em 
-             https://www.geradorcnpj.com/script-validar-cnpj-php.htm )-->
 	<head>
         <title>Mine horta vale verde</title>
-
-
-
 	</head>
 	<body>
 <?php
