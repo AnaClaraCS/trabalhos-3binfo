@@ -1,0 +1,36 @@
+<html>
+    <head> 
+        <title>Pesquisa</title>
+
+        <style type="text/css">
+            .caixa_pesquisa{
+                border: 5px;
+                border-color: red;
+                align-items: center;
+                border-style: dotted;
+                padding: 20px;
+                background-color: white;
+            }
+        
+        </style>
+
+    </head>
+
+    <body style="background-color: wheat;">
+        <div class="caixa_pesquisa" >
+            <h1 style="padding-top: 0px;">Digite o local que você desaja pesquisar</h1>
+
+            <form action="busca_local.php" method="POST">
+                <p style="text-align: center;">
+                    <input type="text" name="valor" size="40px">
+                </p>
+
+                <p style="text-align: center;">
+                    <button type="submit">Pesquisar</button>
+                </p>
+            </form>
+        </div>
+    </body>
+
+
+</html>
